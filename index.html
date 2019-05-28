@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="application-name" content="Actividad 26">
+    <meta name="description" content="Estancia en CONALEP">
+    <meta name="keywords" content="Jesús, LGZús, Estancia, Conalep">
+    <meta name="author" content="JGG, lgzus01@protonmail.com">
+    <meta name="copyright" content="CONALEP 153">
+	<title> Fila de números </title>
+</head>
+<body>
+	<script>
+        var numerito = Number(prompt("Escribe hasta que número quieres: "));
+    //DECLARAMOS LAS VARIABLES    
+    var i, rep;
+    //BUCLE FOR PARA RECORRER DE 1 A 30
+    for (i = 1; i <= numerito; i++) {
+        //BUCLE INTERIOR PARA HACER LAS REPETICIONES
+        for (rep = 0; rep < i; rep++) {
+            //IMPRIMIMOS EL NÚMERO i, i VECES
+            document.write(i);
+        }
+        //IMPRIMIMOS UN SALTO DE LÍNEA
+        document.write("<br>");
+    }
+</script>
+</body>
+</html>
